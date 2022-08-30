@@ -28,7 +28,7 @@ public class ZipBase64Test {
 	}
 
 	@Test
-	public void rundtrip() throws IOException {
+	public void roundtrip() throws IOException {
 
 		byte[] enc = ZipBase64.zipAndEncode(INPUT);
 
