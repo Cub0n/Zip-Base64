@@ -18,7 +18,7 @@ public class ZipBase64Test {
 
 		// Assertions.assertEquals(ENCODED, new String(encoded,Charset.defaultCharset())); // ENCODING can be different 
 		
-		// Assertions.assertEquals(ENCODED.getBytes(Charset.defaultCharset())),// encoded); // NOT EQUAL!
+		// Assertions.assertEquals(ENCODED.getBytes(Charset.defaultCharset())), encoded); // NOT EQUAL!
 	}
 
 	@Test
